@@ -6,11 +6,11 @@
 
 
 const char *tags[] = {
-  "a1:b3:c1:f1:09:d1", //Pet1
-  "eb:49:f2:2c:00:00", //Pet2
-  "c3:48:d1:ed:00:00", //Pet3
-  "fe:d6:99:97:00:00", //Pet4
-  "e9:d0:7d:db:00:00", //Pet5
+  "a1:b3:c1:f1:09:d1", //key1
+  "eb:49:f2:2c:00:00", //Key2
+  "c3:48:d1:ed:00:00", //Key3
+  "fe:d6:99:97:00:00", //Key4
+  "e9:d0:7d:db:00:00", //Key5
   "f7:13:9c:3f:00:00", //Spare
 };
 // Wires White == Reset, Brown == Touch enable debug, Grey == program CMD
