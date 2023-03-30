@@ -50,7 +50,7 @@ void loop() {
         Serial.print(detectedMAC);
         Serial.print(" ");
         Serial.println(bestSignal);
-        digitalWrite(TriggerPIN, HIGH);
+        digitalWrite(TriggerPIN, LOW);
      }
      //check if it's time to close the door
      unsigned long currentMillis = millis();
@@ -58,7 +58,7 @@ void loop() {
        TagAllowed = 0;
        detectedMAC = " ";
        getClosestTag();
-       digitalWrite(TriggerPIN, LOW); //Close the door
+       digitalWrite(TriggerPIN, HIGH); //Close the door
        previousMillis = currentMillis;
     }
  
